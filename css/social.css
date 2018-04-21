@@ -1,0 +1,32 @@
+body{
+
+	background-attachment: fixed;
+}
+.block{
+	background:rgba(255,255,255,.4);
+	width: 60%;
+
+	margin: 200px auto;
+}
+.block h1{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+.fun{
+	display: flex;
+	flex:1;
+	margin: 2px;
+	transition: width 2s, height 2s;
+
+}
+.fun a img{
+	width: 120px;
+	height: 120px;
+	padding: 1%;
+	margin: auto;
+	margin-left: 20px;
+}
+.fun a img:hover{
+	width:130px;
+	height:130px; 
+}

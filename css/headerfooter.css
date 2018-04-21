@@ -1,0 +1,147 @@
+/*Body Css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Sans-Serif;
+    background-attachment: fixed;
+}
+.Landing{
+    background-image:url("../img/wall.jpg");
+}
+.Socials{
+    background-image: url("../img/social.jpg");
+}
+.resume{
+    background-image:url("../img/unnamed.png");
+}
+.Contacts
+{
+    background-image:url("../img/bla.jpg"); 
+}
+.About{
+        background-image: url(../img/back.jpg);
+}
+.modelsgp{
+    background-image: url("../img/p9.jpg");
+}
+/*Navigation Bar CSS*/
+.nav {
+    background:rgb(1, 11, 22);
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 43px;
+    line-height: 40px;
+    box-shadow: 0 5px 3px grey;
+    width: 100%;
+}
+.menu {
+    margin: 0 20px 0 0;
+  
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    line-height: 30px;
+    padding: 11px;
+}
+.menu a:hover{
+    border-bottom: 3px solid white;
+   
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 30px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+/*Hamburger menu design*/
+@media only screen and (max-width: 500px) {
+    
+    label /*change cursor on label and display in block*/{
+
+        display: block;
+        cursor: pointer;
+        color:white;
+    }
+    .menu /*hide menu and align center and display when clicked*/{
+        background:rgb(1, 11, 22);
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a /*give border and display the links in a block*/{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu /*when the toggle is checked the menu is displayed as a block*/{
+        display: block;
+    }
+    .footer a{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+       
+    }
+    .email
+    {
+        text-align: center;
+        margin-left: 5px;
+    }
+    .copyright{
+        display: none;
+    }
+}
+/*Footer CSS*/
+footer
+{
+    background: rgb(1, 11, 22);
+    width: 100%;
+    box-shadow: 0 -2px 3px grey;
+    color: white;
+ 
+
+}
+footer a{
+
+	text-decoration: none;
+	color: white;
+}
+.email{
+	margin-left: 90px;
+}
+footer a:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+}
+.links
+{
+    margin-left: 0;
+}
+.copyright{
+    width: 400px;
+}
+.copyright h4
+{
+    text-align: center;
+}
+.foot {
+    background: white;
+    color:black;
+}

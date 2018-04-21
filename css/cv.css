@@ -1,0 +1,62 @@
+body
+{
+
+	background-attachment: fixed;
+}
+.CV
+{
+	background: rgb(242, 171, 239);
+	width:50%;
+	height: 100%;
+	margin-left: 33px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 1%;
+	border-radius: 10px;
+}
+.CV h2
+{
+	font-family: 'Roboto', sans-serif;
+	padding: 1%;
+	margin-left: 10px;
+	color: black;
+	margin-bottom: 0;
+}
+.CV p
+{
+	font-family: 'Roboto', sans-serif;
+	padding: 1%;
+	margin-left: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	color: black;
+}
+.CV p:nth-child(2)
+{
+	text-align: justify;
+}
+.total
+{
+	display: flex;
+}
+.details
+{
+	text-align: center;
+	background: rgb(242, 171, 239);
+	width: 33%;
+	padding: 1%;
+	height: 100%;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 57px;
+}
+.details img{
+	width: 40%;
+	margin: 0 auto;
+
+}
+.details p{
+	margin: 0;
+}

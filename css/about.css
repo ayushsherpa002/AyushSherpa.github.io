@@ -1,0 +1,97 @@
+body{
+
+	background-attachment: fixed;
+}
+.main{
+	display: flex; /*this section displays the content in flex mode*/
+
+}
+.temp{
+	/*this section is for the image division*/
+	width: 35%;
+	padding: 0;
+	margin-top: 4em;	
+	margin-left: 20px;
+	height: 300px;
+	width: 250px;
+	margin-bottom: 15px;
+
+}
+.temp img{
+	/*image css*/
+	padding: 1%;
+	height: 300px;
+	width: 205px;
+	margin-top:73px;
+	border-radius: 200px;
+}
+.info p{
+	/*css for the paragraph*/
+	margin-right: 9px;
+	margin-left: 9px;
+	text-indent: 19px;
+	text-align: justify;
+}
+.info{
+	/*css for the division of the paragraph*/
+	background: white;
+	color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 4.5em;
+	margin-left: .1em;
+	width: 55%;
+	border-radius: 20px;
+	background: rgba(255,255,255,.7);
+	font-family: 'Philosopher', sans-serif;
+	margin-bottom: 15px;
+
+
+}
+.about-me{
+	/*css for the division containing my introduction*/
+	padding: 1%;
+	height: 200px;
+
+}
+/*css for the heading tag*/
+.about-me h3
+{
+	margin-left: 12px;
+}
+.goals h3{
+	margin-left: 12px;
+}
+.goals
+{
+	padding: 1%;
+}
+.web{
+	padding: 1%;
+}
+.web h3{
+	margin-left:12px; 
+}
+
+@media only screen and (max-width: 550px){
+	.info{
+		font-size: 10px;
+	}
+	.about-me{
+		margin-bottom: 20px;
+	}
+	.footer a{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+       
+    }
+    .email
+    {
+        text-align: center;
+        margin-left: 5px;
+    }
+    .copyright{
+        display: none;
+    }
+}
